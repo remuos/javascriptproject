@@ -1,0 +1,43 @@
+*{
+  margin : 0;
+  padding:0 ;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background: #69afba ;
+  text-align: center;
+}
+header h1 {
+  color: #fff;
+  padding-top: 30px;
+}
+aside{
+  width: 25%;
+  height: 200px;
+  background: red ;
+}
+.content{
+  width: 100%;
+  height: 200px;
+  background: gray ;
+}
+
+.listing{
+  width: 70%;
+}
+
+ul.status {
+    list-style-type: none;
+    width: 100%;
+}
+.status li {
+    background: #f1f1f1;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.status li a {
+    text-decoration: none;
+    color: #666;
+}
